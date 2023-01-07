@@ -1,0 +1,8 @@
+LICENSE.txt
+README.txt
+setup.py
+datapackmutriku.egg-info/PKG-INFO
+datapackmutriku.egg-info/SOURCES.txt
+datapackmutriku.egg-info/dependency_links.txt
+datapackmutriku.egg-info/requires.txt
+datapackmutriku.egg-info/top_level.txt
