@@ -1,0 +1,31 @@
+# This is not "true" dataset params, one cannot use it to instantiate dataloaders
+# But it contains skeleton definitions for COCO2017 dataset and exists to avoid
+# duplication of those parameters in other dataset params
+
+num_joints: 5
+
+# OKs sigma values take from https://github.com/cocodataset/cocoapi/blob/master/PythonAPI/pycocotools/cocoeval.py#L523
+oks_sigmas: [0.1, 0.1, 0.1, 0.1, 0.1]
+
+
+edge_links:
+  - [0, 1]
+  - [1, 2]
+  - [2, 3]
+  - [3, 4]
+
+edge_colors:
+ - [214, 39, 40]  # Nose -> LeftEye
+ - [148, 103, 189]  # Nose -> RightEye
+ - [44, 160, 44]  # LeftEye -> RightEye
+ - [140, 86, 75]  # LeftEye -> LeftEar
+
+
+
+keypoint_colors:
+  - [148, 103, 189]
+  - [31, 119, 180]
+  - [148, 103, 189]
+  - [148, 103, 189]
+  - [31, 119, 180]
+
